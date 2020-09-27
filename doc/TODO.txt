@@ -1,11 +1,10 @@
-improve the symlink install operation to be smarter:
-- don't install every symlink.
-	- If the symlink already exists and is pointing at the right
-	place then do nothing.
-	- If the symlink already exists and is pointing at the wrong
-	place then remove it and put the right symlink in.
-	- If the symlink doesn't exists then install the new symlink.
-- check if there are old symlinks to remove
-	scan the target folder and for every symlink that points
-	to the source folder that is not currently available - remove
-	that symlink.
+implement the following:
+	docker_bash.sh
+	docker_containers_rm_all.sh
+	docker_images_rm_none.sh
+	docker_kill_all.sh
+	docker_connect.sh
+	docker_images_rm_all.sh
+	docker_kill_all_and_remove.sh
+
+	(take the implementation from the bash script).
