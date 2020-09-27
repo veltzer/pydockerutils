@@ -9,11 +9,7 @@ def get_readme():
 setuptools.setup(
     # the first three fields are a must according to the documentation
     name="pymakehelper",
-    version="0.0.9",
-    packages=[
-        'pymakehelper',
-        'pymakehelper.endpoints',
-    ],
+    version="0.0.1",
     # from here all is optional
     description="pymakehelper helps doing things with the make system",
     long_description=get_readme(),
