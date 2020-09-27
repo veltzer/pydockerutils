@@ -12,7 +12,6 @@ setuptools.setup(
     version="0.0.1",
     packages=[
         'pydockerutils',
-        'pydockerutils.endpoints',
     ],
     # from here all is optional
     description="pydockerutils is a set of docker utils",
@@ -55,7 +54,7 @@ setuptools.setup(
     data_files=[
     ],
     entry_points={"console_scripts": [
-        'pydockerutils=pydockerutils.endpoints.main:main',
+        'pydockerutils=pydockerutils.main:main',
     ]},
     python_requires=">=3.6",
 )

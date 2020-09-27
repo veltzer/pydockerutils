@@ -3,7 +3,7 @@ import config.project
 package_name = config.project.project_name
 
 console_scripts = [
-    'pydockerutils=pydockerutils.endpoints.main:main',
+    'pydockerutils=pydockerutils.main:main',
 ]
 
 setup_requires = [
