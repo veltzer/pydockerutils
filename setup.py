@@ -8,10 +8,14 @@ def get_readme():
 
 setuptools.setup(
     # the first three fields are a must according to the documentation
-    name="pymakehelper",
+    name="pydockerutils",
     version="0.0.1",
+    packages=[
+        'pydockerutils',
+        'pydockerutils.endpoints',
+    ],
     # from here all is optional
-    description="pymakehelper helps doing things with the make system",
+    description="pydockerutils is a set of docker utils",
     long_description=get_readme(),
     long_description_content_type="text/x-rst",
     author="Mark Veltzer",
@@ -19,11 +23,12 @@ setuptools.setup(
     maintainer="Mark Veltzer",
     maintainer_email="mark.veltzer@gmail.com",
     keywords=[
-        'make',
-        'scons',
+        'docker',
+        'container',
+        'utils',
     ],
-    url="https://veltzer.github.io/pymakehelper",
-    download_url="https://github.com/veltzer/pymakehelper",
+    url="https://veltzer.github.io/pydockerutils",
+    download_url="https://github.com/veltzer/pydockerutils",
     license="MIT",
     platforms=[
         'python3',
@@ -50,7 +55,7 @@ setuptools.setup(
     data_files=[
     ],
     entry_points={"console_scripts": [
-        'pymakehelper=pymakehelper.endpoints.main:main',
+        'pydockerutils=pydockerutils.endpoints.main:main',
     ]},
     python_requires=">=3.6",
 )

@@ -1,14 +1,14 @@
-==============
-*pymakehelper*
-==============
+===============
+*pydockerutils*
+===============
 
-.. image:: https://img.shields.io/pypi/v/pymakehelper
+.. image:: https://img.shields.io/pypi/v/pydockerutils
 
-.. image:: https://img.shields.io/github/license/veltzer/pymakehelper
+.. image:: https://img.shields.io/github/license/veltzer/pydockerutils
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
 
-project website: https://veltzer.github.io/pymakehelper
+project website: https://veltzer.github.io/pydockerutils
 
 author: Mark Veltzer
 

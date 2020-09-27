@@ -6,7 +6,7 @@ main entry point to the program
 import pylogconf.core
 from pytconf import register_main, config_arg_parse_and_launch
 
-from pymakehelper.endpoints.group_default import register_group_default
+from pydockerutils.endpoints.group_default import register_group_default
 
 
 def register_all_groups():
@@ -19,7 +19,7 @@ def register_all_groups():
 @register_main()
 def main():
     """
-    pymakehelper will help you write makefiles
+    pydockerutils will help you write makefiles
     """
     pylogconf.core.setup()
     register_all_groups()

@@ -1,5 +1,5 @@
 """
-The default group of operations that pymakehelper has
+The default group of operations that pydockerutils has
 """
 
 import os  # for walk, getcwd, symlink, listdir, unlink, mkdir
@@ -9,14 +9,14 @@ import sys
 
 from pytconf import register_endpoint, register_function_group, get_free_args
 
-from pymakehelper.configs import ConfigSymlinkInstall
+from pydockerutils.configs import ConfigSymlinkInstall
 
-import pymakehelper
-import pymakehelper.version
-from pymakehelper.utils import touch_mkdir_many, no_err_run
+import pydockerutils
+import pydockerutils.version
+from pydockerutils.utils import touch_mkdir_many, no_err_run
 
 GROUP_NAME_DEFAULT = "default"
-GROUP_DESCRIPTION_DEFAULT = "all pymakehelper commands"
+GROUP_DESCRIPTION_DEFAULT = "all pydockerutils commands"
 
 
 def register_group_default():
@@ -36,7 +36,7 @@ def version() -> None:
     """
     Print version
     """
-    print(pymakehelper.version.VERSION_STR)
+    print(pydockerutils.version.VERSION_STR)
 
 
 def debug(msg):
