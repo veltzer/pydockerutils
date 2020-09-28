@@ -16,6 +16,8 @@
 ![Downloads](https://pepy.tech/badge/pydockerutils/month)
 ![Downloads](https://pepy.tech/badge/pydockerutils/week)
 
+[![Known Vulnerabilities](https://snyk.io/test/github/veltzer/pydockerutils/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/veltzer/pydockerutils?targetFile=requirements.txt)
+
 
 
 pydockerutils is a set of docker utils

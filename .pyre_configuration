@@ -1,0 +1,8 @@
+{
+  "binary": "/home/mark/git/pydockerutils/.venv/default/bin/pyre.bin",
+  "source_directories": [
+    "."
+  ],
+  "taint_models_path": "/home/mark/git/pydockerutils/.venv/default/lib",
+  "typeshed": "/home/mark/git/pydockerutils/.venv/default/lib/pyre_check/typeshed"
+}

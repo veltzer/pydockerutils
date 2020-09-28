@@ -17,7 +17,9 @@ run_requires = [
 test_requires = [
     'pylint',  # to check for lint errors
     'pytest',  # for testing
+    'pytest-cov',  # for test coverage
     'pyflakes',  # for testing
+    'pyre-check',  # for type checking
 ]
 
 dev_requires = [
@@ -25,6 +27,7 @@ dev_requires = [
     'pypitools',  # for upload etc
     'pydmt',  # for building
     'Sphinx',  # for the sphinx builder
+    'pymakehelper',  # for the makefile
 ]
 
 install_requires = list(setup_requires)
