@@ -19,6 +19,9 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/veltzer/pydockerutils/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/veltzer/pydockerutils?targetFile=requirements.txt)
 
 
+Actions
+
+![build](https://github.com/veltzer/pydockerutils/workflows/build/badge.svg)
 
 pydockerutils is a set of docker utils
 

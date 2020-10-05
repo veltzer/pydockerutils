@@ -12,5 +12,5 @@ pymakehelper
 pylint
 pytest
 pytest-cov
-pyflakes
-pyre-check
+flake8
+pymakehelper
