@@ -12,11 +12,6 @@
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/pydockerutils)
 
 ![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
-![Downloads](https://pepy.tech/badge/pydockerutils)
-![Downloads](https://pepy.tech/badge/pydockerutils/month)
-![Downloads](https://pepy.tech/badge/pydockerutils/week)
-
-[![Known Vulnerabilities](https://snyk.io/test/github/veltzer/pydockerutils/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/veltzer/pydockerutils?targetFile=requirements.txt)
 
 
 Actions
