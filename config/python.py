@@ -6,6 +6,7 @@ console_scripts: List[str] = [
 ]
 dev_requires: List[str] = [
     "pypitools",
+    "black",
 ]
 config_requires: List[str] = [
     "pyclassifiers",
