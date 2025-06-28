@@ -1,0 +1,53 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pydockerutils"
+version = "0.0.6"
+requires-python = ">=3.12"
+authors = [
+	{ name = "Mark Veltzer", email = "mark.veltzer@gmail.com" }
+]
+maintainers = [
+	{ name = "Mark Veltzer", email = "mark.veltzer@gmail.com" }
+]
+description = "pydockerutils is a set of docker utils"
+readme = "README.md"
+license = "MIT"
+keywords=[
+    "docker",
+    "container",
+    "utils",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "pytconf",
+    "pylogconf",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/veltzer/pydockerutils"
+"Bug Tracker" = "https://github.com/veltzer/pydockerutils/issues"
+"Documentation" = "https://veltzer.github.io/pydockerutils"
+"Download" = "https://pypi.org/project/pydockerutils/"
+"Repository" = "https://github.com/veltzer/pydockerutils"
+
+[project.scripts]
+pydockerutils = "pydockerutils.main:main"
+
+[tool.ruff]
+line-length = 130
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

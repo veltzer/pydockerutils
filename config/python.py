@@ -1,8 +1,8 @@
 """ python deps for this project """
 
-console_scripts: list[str] = [
-    "pydockerutils=pydockerutils.main:main",
-]
+scripts: dict[str,str] = {
+    "pydockerutils": "pydockerutils.main:main",
+}
 config_requires: list[str] = [
     "pyclassifiers",
 ]
