@@ -5,3 +5,4 @@ KEYWORDS = {
     "container",
     "utils",
 }
+PYPI = true
