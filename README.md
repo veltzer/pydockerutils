@@ -5,7 +5,7 @@
 
 description: pydockerutils is a set of docker utils
 
-project website: https://veltzer.github.io/pydockerutils
+project website: <https://veltzer.github.io/pydockerutils>
 
 author: Mark Veltzer
 
